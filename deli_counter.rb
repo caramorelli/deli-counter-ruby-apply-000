@@ -23,6 +23,7 @@ end
 
 def now_serving(array)
   current_customer = array.shift
+  puts "Currently serving #{current_customer}."
 end 
 
 #     context "there are people in line" do
