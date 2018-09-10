@@ -5,13 +5,13 @@
 #   let(:another_deli) { ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] }
 
 def line(array)
-  puts "The line is currently empty." if array.empty?
+  return "The line is currently empty." if array.empty?
   
   enum = []
   array.each_with_index do |person, idx|
     enum << idx + '. ' + person 
   end 
-  puts 'The line is currently: ' + enum.join(' ')
+  puts 'The line is currently: ' + enum.join(' ') 
 end 
 
 #     context "there are people in line" do
