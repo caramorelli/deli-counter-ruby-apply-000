@@ -9,7 +9,7 @@ def line(array)
   
   enum = ['The line is currently:']
   array.each.with_index do |person, idx|
-    enum << idx.to_s + '. ' + person 
+    enum << (idx + 1).to_s + '. ' + person 
   end 
   puts enum.join(' ') unless array.empty?
 end 
