@@ -21,6 +21,9 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number " + (array.size).to_s + " in line."
 end 
 
+def now_serving(array)
+end 
+
 #     context "there are people in line" do
 #       it "should display the current line" do
 #         expect($stdout).to receive(:puts).with("The line is currently: 1. Logan 2. Avi 3. Spencer")
