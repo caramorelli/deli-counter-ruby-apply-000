@@ -11,7 +11,7 @@ def line(array)
   array.each_with_index do |person, idx|
     enum << idx + '. ' + person 
   end 
-  puts 'The line is currently: ' + enum.join(' ') 
+  puts 'The line is currently: ' + enum.join(' ') unless array.empty?
 end 
 
 #     context "there are people in line" do
