@@ -7,11 +7,11 @@
 def line(array)
   puts "The line is currently empty." if array.empty?
   
-  enum = []
+  enum = ['The line is currently: ']
   array.each_with_index do |person, idx|
     enum << idx + '. ' + person 
   end 
-  puts 'The line is currently: ' enum.join(' ') unless array.empty?
+  puts enum.join(' ') unless array.empty?
 end 
 
 #     context "there are people in line" do
