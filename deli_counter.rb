@@ -22,6 +22,7 @@ def take_a_number(array, name)
 end 
 
 def now_serving(array)
+  current_cust = array.shift
 end 
 
 #     context "there are people in line" do
