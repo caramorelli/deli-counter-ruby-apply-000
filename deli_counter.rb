@@ -7,7 +7,9 @@
 def line(array)
   puts "The line is currently empty." if array.empty?
   
-  puts array.enumerate
+  enum = []
+  0.upto(array.size) do |person|
+  end 
 end 
 
 #     context "there are people in line" do
