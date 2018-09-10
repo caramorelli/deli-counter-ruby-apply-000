@@ -7,9 +7,7 @@
 def line(array)
   puts "The line is currently empty." if array.empty?
   
-  0.upto(array.size) do |ele|
-    
-  end 
+  puts array.enumerate
 end 
 
 #     context "there are people in line" do
