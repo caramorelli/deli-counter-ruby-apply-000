@@ -22,12 +22,12 @@ def take_a_number(array, name)
 end 
 
 def now_serving(array)
-  puts array.empty?
-  #   "There is nobody waiting to be served!"
-  # else 
-  #   current_customer = array.shift
-  #   puts "Currently serving #{current_customer}."
-  # end
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  else 
+    current_customer = array.shift
+    puts "Currently serving #{current_customer}."
+  end
 end 
 
 #     context "there are people in line" do
