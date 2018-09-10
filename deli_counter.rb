@@ -7,7 +7,7 @@
 def line(array)
   puts "The line is currently empty." if array.empty?
   
-  enum = ['The line is currently: ']
+  enum = ['The line is currently:']
   array.each_with_index do |person, idx|
     enum << idx + '. ' + person 
   end 
