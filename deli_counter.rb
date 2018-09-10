@@ -5,7 +5,7 @@
 #   let(:another_deli) { ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] }
 
 def line(array)
-  return "The line is currently empty." if array.empty?
+  puts "The line is currently empty." if array.empty?
   
   enum = []
   array.each_with_index do |person, idx|
