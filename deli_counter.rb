@@ -8,7 +8,8 @@ def line(array)
   puts "The line is currently empty." if array.empty?
   
   enum = []
-  0.upto(array.size) do |person|
+  array.each_with_index do |person|
+    
   end 
 end 
 
