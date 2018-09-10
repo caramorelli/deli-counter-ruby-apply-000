@@ -9,7 +9,7 @@ def line(array)
   
   enum = []
   array.each_with_index do |person, idx|
-    
+    enum << idx + '. ' + person 
   end 
 end 
 
