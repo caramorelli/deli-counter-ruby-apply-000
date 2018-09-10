@@ -6,17 +6,9 @@
 
 def line(array)
   puts "The line is currently empty." if array.empty?
+  0.upto(array.size) do |ele|
+  end 
 end 
-
-#   describe "#line" do
-#     context "there is nobody in line" do
-#       it "should say the line is empty" do
-#         # This line checks the current standard output (your terminal screen)
-#         # to make sure the correct output has been puts'ed.
-#         expect($stdout).to receive(:puts).with("The line is currently empty.")
-#         line(katz_deli)
-#       end
-#     end
 
 #     context "there are people in line" do
 #       it "should display the current line" do
