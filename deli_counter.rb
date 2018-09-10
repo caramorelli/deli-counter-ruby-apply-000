@@ -8,8 +8,8 @@ def line(array)
   puts "The line is currently empty." if array.empty?
   
   enum = ['The line is currently:']
-  array.each_with_index do |person, idx|
-    enum << idx + '. ' + person 
+  array.each.with_index do |person, idx|
+    enum << idx.to_s + '. ' + person 
   end 
   puts enum.join(' ') unless array.empty?
 end 
