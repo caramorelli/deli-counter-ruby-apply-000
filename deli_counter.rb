@@ -7,6 +7,7 @@
 def line(array)
   puts "The line is currently empty." if array.empty?
   0.upto(array.size) do |ele|
+    
   end 
 end 
 
